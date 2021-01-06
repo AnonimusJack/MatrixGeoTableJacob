@@ -40,12 +40,13 @@ class GeoTableMainViewController: UIViewController, UITableViewDataSource, UITab
         let serverErrorAlert = UIAlertController(title: "Server Error!", message: "The server responded with an error, would you like to try again?", preferredStyle: .alert)
         serverErrorAlert.addAction(UIAlertAction(title: "Yes", style: .default, handler: {action in GeoTableMainDataRepository.RequestData(responseHandler: self)}))
         serverErrorAlert.addAction(UIAlertAction(title: "No", style: .cancel, handler: nil))
+        self.present(serverErrorAlert, animated: true, completion: nil)
     }
     
     func HandleNetworkError()
     {
-        let serverErrorAlert = UIAlertController(title: "Network Error!", message: "There appears to be a local error, would you like to check wifi settings?", preferredStyle: .alert)
-        serverErrorAlert.addAction(UIAlertAction(title: "Yes", style: .default, handler: {action in
+        let networkErrorAlert = UIAlertController(title: "Network Error!", message: "There appears to be a local error, would you like to check wifi settings?", preferredStyle: .alert)
+        networkErrorAlert.addAction(UIAlertAction(title: "Yes", style: .default, handler: {action in
             guard let settingsURL = URL(string: "App-prefs:WIFI")
                 else { return }
             if UIApplication.shared.canOpenURL(settingsURL)
@@ -53,7 +54,8 @@ class GeoTableMainViewController: UIViewController, UITableViewDataSource, UITab
                 UIApplication.shared.open(settingsURL, completionHandler: nil)
             }
         }))
-        serverErrorAlert.addAction(UIAlertAction(title: "No", style: .cancel, handler: nil))
+        networkErrorAlert.addAction(UIAlertAction(title: "No", style: .cancel, handler: nil))
+        self.present(networkErrorAlert, animated: true, completion: nil)
     }
     
     func HandleDataRecieved(data: [Country])
