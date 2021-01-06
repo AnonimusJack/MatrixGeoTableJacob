@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		895BD5AB25A4E35200393BB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895BD5AA25A4E35200393BB0 /* AppDelegate.swift */; };
+		895BD5B225A4E35200393BB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 895BD5B025A4E35200393BB0 /* Main.storyboard */; };
+		895BD5B425A4E35A00393BB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 895BD5B325A4E35A00393BB0 /* Assets.xcassets */; };
+		895BD5B725A4E35A00393BB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 895BD5B525A4E35A00393BB0 /* LaunchScreen.storyboard */; };
+		895BD5C125A4E88C00393BB0 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895BD5C025A4E88C00393BB0 /* Country.swift */; };
+		895BD5C925A4F2C200393BB0 /* GeoTableSelectedCountryHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 895BD5C825A4F2C200393BB0 /* GeoTableSelectedCountryHeader.xib */; };
+		895BD5CB25A4F2EB00393BB0 /* GeoTableSelectedCountryHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895BD5CA25A4F2EB00393BB0 /* GeoTableSelectedCountryHeader.swift */; };
+		895BD5CD25A4F43300393BB0 /* GeoTableCountryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895BD5CC25A4F43300393BB0 /* GeoTableCountryCell.swift */; };
+		895BD5D125A4F9B800393BB0 /* GeoTableMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895BD5D025A4F9B800393BB0 /* GeoTableMainViewController.swift */; };
+		895E228025A5C55100E1C09A /* GeoTableMainDataRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895E227F25A5C55100E1C09A /* GeoTableMainDataRepository.swift */; };
+		895E22C425A5EA0A00E1C09A /* NetworkResponseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895E22C325A5EA0A00E1C09A /* NetworkResponseHandler.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		895BD5A725A4E35100393BB0 /* MatrixGeoTableJacob.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MatrixGeoTableJacob.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		895BD5AA25A4E35200393BB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		895BD5B125A4E35200393BB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		895BD5B325A4E35A00393BB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		895BD5B625A4E35A00393BB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		895BD5B825A4E35A00393BB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		895BD5C025A4E88C00393BB0 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		895BD5C825A4F2C200393BB0 /* GeoTableSelectedCountryHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GeoTableSelectedCountryHeader.xib; sourceTree = "<group>"; };
+		895BD5CA25A4F2EB00393BB0 /* GeoTableSelectedCountryHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoTableSelectedCountryHeader.swift; sourceTree = "<group>"; };
+		895BD5CC25A4F43300393BB0 /* GeoTableCountryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoTableCountryCell.swift; sourceTree = "<group>"; };
+		895BD5D025A4F9B800393BB0 /* GeoTableMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoTableMainViewController.swift; sourceTree = "<group>"; };
+		895E227F25A5C55100E1C09A /* GeoTableMainDataRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoTableMainDataRepository.swift; sourceTree = "<group>"; };
+		895E22C325A5EA0A00E1C09A /* NetworkResponseHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkResponseHandler.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		895BD5A425A4E35100393BB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		895BD59E25A4E35100393BB0 = {
+			isa = PBXGroup;
+			children = (
+				895BD5A925A4E35100393BB0 /* MatrixGeoTableJacob */,
+				895BD5A825A4E35100393BB0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		895BD5A825A4E35100393BB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				895BD5A725A4E35100393BB0 /* MatrixGeoTableJacob.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		895BD5A925A4E35100393BB0 /* MatrixGeoTableJacob */ = {
+			isa = PBXGroup;
+			children = (
+				895E22C225A5E9E300E1C09A /* Protocols */,
+				895BD5C725A4F29100393BB0 /* Views */,
+				895BD5C225A4EB4000393BB0 /* Controllers */,
+				895BD5BE25A4E87100393BB0 /* Data */,
+				895BD5AA25A4E35200393BB0 /* AppDelegate.swift */,
+				895BD5B025A4E35200393BB0 /* Main.storyboard */,
+				895BD5B325A4E35A00393BB0 /* Assets.xcassets */,
+				895BD5B525A4E35A00393BB0 /* LaunchScreen.storyboard */,
+				895BD5B825A4E35A00393BB0 /* Info.plist */,
+			);
+			path = MatrixGeoTableJacob;
+			sourceTree = "<group>";
+		};
+		895BD5BE25A4E87100393BB0 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				895BD5BF25A4E87800393BB0 /* Models */,
+				895E227F25A5C55100E1C09A /* GeoTableMainDataRepository.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		895BD5BF25A4E87800393BB0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				895BD5C025A4E88C00393BB0 /* Country.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		895BD5C225A4EB4000393BB0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				895BD5D025A4F9B800393BB0 /* GeoTableMainViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		895BD5C725A4F29100393BB0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				895BD5C825A4F2C200393BB0 /* GeoTableSelectedCountryHeader.xib */,
+				895BD5CA25A4F2EB00393BB0 /* GeoTableSelectedCountryHeader.swift */,
+				895BD5CC25A4F43300393BB0 /* GeoTableCountryCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		895E22C225A5E9E300E1C09A /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				895E22C325A5EA0A00E1C09A /* NetworkResponseHandler.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		895BD5A625A4E35100393BB0 /* MatrixGeoTableJacob */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 895BD5BB25A4E35A00393BB0 /* Build configuration list for PBXNativeTarget "MatrixGeoTableJacob" */;
+			buildPhases = (
+				895BD5A325A4E35100393BB0 /* Sources */,
+				895BD5A425A4E35100393BB0 /* Frameworks */,
+				895BD5A525A4E35100393BB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MatrixGeoTableJacob;
+			productName = MatrixGeoTableJacob;
+			productReference = 895BD5A725A4E35100393BB0 /* MatrixGeoTableJacob.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		895BD59F25A4E35100393BB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = JFTech;
+				TargetAttributes = {
+					895BD5A625A4E35100393BB0 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+				};
+			};
+			buildConfigurationList = 895BD5A225A4E35100393BB0 /* Build configuration list for PBXProject "MatrixGeoTableJacob" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 895BD59E25A4E35100393BB0;
+			productRefGroup = 895BD5A825A4E35100393BB0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				895BD5A625A4E35100393BB0 /* MatrixGeoTableJacob */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		895BD5A525A4E35100393BB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				895BD5B725A4E35A00393BB0 /* LaunchScreen.storyboard in Resources */,
+				895BD5C925A4F2C200393BB0 /* GeoTableSelectedCountryHeader.xib in Resources */,
+				895BD5B425A4E35A00393BB0 /* Assets.xcassets in Resources */,
+				895BD5B225A4E35200393BB0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		895BD5A325A4E35100393BB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				895E22C425A5EA0A00E1C09A /* NetworkResponseHandler.swift in Sources */,
+				895BD5C125A4E88C00393BB0 /* Country.swift in Sources */,
+				895BD5AB25A4E35200393BB0 /* AppDelegate.swift in Sources */,
+				895BD5CB25A4F2EB00393BB0 /* GeoTableSelectedCountryHeader.swift in Sources */,
+				895BD5CD25A4F43300393BB0 /* GeoTableCountryCell.swift in Sources */,
+				895E228025A5C55100E1C09A /* GeoTableMainDataRepository.swift in Sources */,
+				895BD5D125A4F9B800393BB0 /* GeoTableMainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		895BD5B025A4E35200393BB0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				895BD5B125A4E35200393BB0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		895BD5B525A4E35A00393BB0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				895BD5B625A4E35A00393BB0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		895BD5B925A4E35A00393BB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		895BD5BA25A4E35A00393BB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		895BD5BC25A4E35A00393BB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MatrixGeoTableJacob/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JFT.MatrixGeoTableJacob;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		895BD5BD25A4E35A00393BB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MatrixGeoTableJacob/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JFT.MatrixGeoTableJacob;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		895BD5A225A4E35100393BB0 /* Build configuration list for PBXProject "MatrixGeoTableJacob" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				895BD5B925A4E35A00393BB0 /* Debug */,
+				895BD5BA25A4E35A00393BB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		895BD5BB25A4E35A00393BB0 /* Build configuration list for PBXNativeTarget "MatrixGeoTableJacob" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				895BD5BC25A4E35A00393BB0 /* Debug */,
+				895BD5BD25A4E35A00393BB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 895BD59F25A4E35100393BB0 /* Project object */;
+}
